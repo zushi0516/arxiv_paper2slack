@@ -41,7 +41,7 @@ def get_summary(result):
 def main(event, context):
     # Slack APIクライアントを初期化する
     client = WebClient(token=SLACK_API_TOKEN)
-    #queryを用意、今回は、三種類のqueryを用意
+    #queryを用意
     query ='ti:%22 Deep Learning %22'
 
     # arxiv APIで最新の論文情報を取得する
