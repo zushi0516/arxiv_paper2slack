@@ -8,7 +8,7 @@ import random
 #OpenAIのapiキー
 openai.api_key = 'OpenAIのAPIキー'
 # Slack APIトークン
-SLACK_API_TOKEN = 'SlackbotのAPIトークン'
+SLACK_API_TOKEN = 'SlackbotのBot User OAuth Token'
 # Slackに投稿するチャンネル名を指定する
 SLACK_CHANNEL = "#general"
 
